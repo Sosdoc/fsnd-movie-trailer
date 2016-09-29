@@ -38,6 +38,7 @@ main_page_head = '''
         .movie-tile {
             margin-bottom: 20px;
             padding-top: 20px;
+            transition: background-color 0.8s;
         }
         .movie-tile:hover {
             background-color: #EEE;
@@ -90,7 +91,7 @@ main_page_head = '''
 main_page_content = '''
   <body>
     <!-- Trailer Video Modal -->
-    <div class="modal" id="trailer">
+    <div class="modal fade" id="trailer">
       <div class="modal-dialog">
         <div class="modal-content">
           <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
