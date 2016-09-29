@@ -3,9 +3,11 @@
 
 A simple project that will generate a webpage and show some movies with the ability to see their trailers.
 
-## Usage
+### Usage
 
-Make sure python is installed and simply run:
+This project requires **Python 2.7**, no additional libraries are needed. 
+
+To run it simply execute in a terminal:
 
 ```
 python entertainment_center.py
